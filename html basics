@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        CEC
+    </head>
+    <body style="background-color: lightblue;">
+        <span style="color: red;">
+        <h1>Chirala Engineering College</h1>
+        </span>
+        <div style="background-color: green">
+        <p>Chirala Engineering College (CEC) is a prestigious institution located in Chirala, Andhra Pradesh, India.</p>
+        </div>
+        <img src="Images/cec.webp" align="center" width="700" height="300">
+    </body>
+</html>
