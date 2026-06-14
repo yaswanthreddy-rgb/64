@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>InterviewAce AI</title>
+    </head>
+    <body   style="background-color: #f0f0f0; font-family: Arial, sans-serif; color: #333;">
+        <h3>Welcome Back Yaswanth © </h3>
+        <p>Hello, Yaswanth! How can I assist you today?</p>
+        <H2>Dashboard</H2>
+
+        <p>DSA Solved=0</p>
+
+        <p>Java=0</p>
+
+        <p>Aptitude=0</p>
+
+        <p>Resume=12</p>
+
+        <h1>Features</h1>
+        <p>
+            Problem solving
+
+        </p>
+        <p>
+            Mock Interviews
+        </p>
+        <p>
+            Resume Building
+        </p>
+        <p>
+            Interview Preparation
+        </p>
+        
+        </body>
+    
+</htm>
