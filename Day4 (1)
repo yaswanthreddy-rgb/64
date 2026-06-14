@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chirala Engineering College</title>
+</head>
+
+<body style="background-color: lightblue;">
+
+    <h1 style="color: red;">Chirala Engineering College</h1>
+
+    <div style="background-color: rgb(38, 168, 232);">
+        <p>
+            Chirala Engineering College (CEC) is a prestigious institution located in Chirala, Andhra Pradesh, India.
+        </p>
+    </div>
+
+    <br>
+
+    <center>
+    
+    <img src="images/cec.webp" width="500" height="300" alt="Chirala Engineering College">
+
+    
+    <br><br>
+
+    <a href="https://www.cecc.co.in/" target="_blank">
+        Click here to visit the official website of Chirala Engineering College
+    </a>
+
+    
+    <br><br>
+
+
+        <a href="mailto:admissions@cecc.co.in">
+            If you have any queries, feel free to contact us
+        </a>
+    <br>
+
+    
+        <a href="tel:9866358178">
+            If any queries contact us: 9866358178
+        </a>
+
+        <br><br>
+    <a href="download:" download>
+            Download our brochure for more information
+        </a>
+
+    <table border="2">
+    <tr>
+        <th>Course</th>
+        <th>Duration</th>
+        <th>Eligibility</th>
+        <th>Lateral Entry</th>
+    </tr>
+
+    <tr>
+        <td>Computer Science Engineering</td>
+        <td>4 Years</td>
+        <td>10+2 with Physics, Chemistry, and Mathematics</td>
+        <td>3-Year Diploma</td>
+    </tr>
+
+    <tr>
+        <td>Electronics and Communication Engineering</td>
+        <td>4 Years</td>
+        <td>10+2 with Physics, Chemistry, and Mathematics</td>
+        <td>3-Year Diploma</td>
+    </tr>
+
+    <tr>
+        <td>Electrical and Electronics Engineering</td>
+        <td>4 Years</td>
+        <td>10+2 with Physics, Chemistry, and Mathematics</td>
+        <td>3-Year Diploma</td>
+    </tr>
+</table>
+</center>
+<div style="color: blue;"> 
+<h3>Admission Enquiry</h3>
+</div><br>
+<form style="border: 2px;">
+Name:
+<input type="text" placeholder="Enter your name" required minlength="1" maxlength="100" ><br><br>
+
+Mobile:
+<input type="tel" placeholder="Enter your mobile number" required><br> <br>
+
+Qualification:
+<select>
+    <option>Select Your Qualification</option>
+    <option>Intermediate</option>
+    <option>Diploma</option>
+</select><br><br>
+College:
+<input type="text" placeholder="Enter your college name" required><br><br>
+
+Interested Course:
+<select>
+    <option>Select Your Course</option>
+    <option>CSE</option>
+    <option>ECE</option>
+    <option>EEE</option>
+
+</select><br><br>
+
+Course:
+<select>
+    <option>Select Your Branch</option>
+    <option>AIML</option>
+    <option>AIDS</option>
+    <option>CSE</option>
+    <option>DATASCIENCE</option>
+    <option>IT</option>
+    <option>IOT</option>
+    <option>ECE</option>
+    <option>EEEL</option>
+    </option>
+</select><br><br>
+<input type="submit" value="Submit" onclick="alert('Your enquiry has been submitted successfully!')">
+</form>
+
+<br>
+
+<h3 style="color: blue;">Enter your personal Details</h3><br>
+
+
+Name:
+
+<input type="text" placeholder="Enter your name"><br> <br>
+
+Enter Your Email:
+<input type="email" placeholder="ex:abcd@gmmail.com" accept="abcd@gmmail.com"><br>
+<br>
+
+Year of Born:
+<input type="date"><br>
+<br>
+College Joining Year:
+<input type="month" required>
+<br>
+<br>
+Passedout Year:
+<input type="month"required>
+<br>
+<br>
+Upload Your Documents:
+<input type="file" required>
+<input type="submit" value="upload" required >
+<br>
+<br>
+<input type="submit">
+<br><br>
+<iframe src="login.html" height="200" width="500"></iframe>
+</body>
+</html>
