@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <form style=background-color:rgb(10,215,136);">
+        
+    <h2 style="color: rgb(11, 130, 210);">Login Page:</h2>
+    Enter Your username:
+    <input type="username" required>
+    <br>
+    <br>
+    Enter Your Password
+    <input type="password" required ><br>
+    <br>
+    <input type="submit" value="login">
+</form>
+</html>
