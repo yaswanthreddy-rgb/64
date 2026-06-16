@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        Visit Our official Website:
+
+        <br>
+        <br>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://www.cecc.co.in/&size=200x200"title="Scan to visit CEC Website">
+        <br>
+        <br>
+
+    </body>
+</html>
