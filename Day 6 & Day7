@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <body style="background-color:white;">
+<center>
+    <link rel="Stylesheet" type="text/css" href="admission.css">
+<div style="color: black;">
+<h3>Admission Enquiry</h3>
+</div><br>
+<form style="border: 2px;">
+Name:
+<input type="text" placeholder="Enter your name" required minlength="1" maxlength="100" ><br><br>
+
+Mobile:
+<input type="tel" placeholder="Enter your mobile number" required><br> <br>
+
+Qualification:
+<select>
+    <option>Select Your Qualification</option>
+    <option>Intermediate</option>
+    <option>Diploma</option>
+</select><br><br>
+College:
+<input type="text" placeholder="Enter your college name" required><br><br>
+
+Interested Course:
+<select>
+    <option>Select Your Course</option>
+    <option>CSE</option>
+    <option>ECE</option>
+    <option>EEE</option>
+
+</select><br><br>
+
+Course:
+<select>
+    <option>Select Your Branch</option>
+    <option>AIML</option>
+    <option>AIDS</option>
+    <option>CSE</option>
+    <option>DATASCIENCE</option>
+    <option>IT</option>
+    <option>IOT</option>
+    <option>ECE</option>
+    <option>EEEL</option>
+    </option>
+</select><br><br>
+<input type="submit" value="Submit" onclick="alert('Your enquiry has been submitted successfully!')">
+</form>
+</center>
+</body>
+</html>
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    cursor: wait;
+    border-style: solid;
+    border-color:( green red white blue);
+    padding: 10%;
+    background-image: url("Images/college\ enquire.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+Day 7
+<html>
+    <body>
+        <link rel="stylesheet" type="text/css" href="style.css">
+<center>      
+<h3 style="color: blue;">Enter Your Personal Details</h3><br>
+
+
+Name:
+
+<input type="text" placeholder="Enter your name"><br> <br>
+
+Enter Your Email:
+<input type="email" placeholder="ex:abcd@gmmail.com"><br>
+<br>
+
+Year of Born:
+<input type="date"><br>
+<br>
+College Joining Year:
+<input type="month" required>
+<br>
+<br>
+Passedout Year:
+<input type="month"required>
+<br>
+<br>
+Upload Your Documents:
+<br>
+<br>
+<input type="file" required>
+<input type="submit" value="upload" required >
+<br>
+<br>
+<input type="submit">
+<br><br>
+</center>
+    </body>
+</html>
+title,h2{
+    color: rgb(73, 208, 208);
+    font-size:larger;
+    font-style:italic;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+body{
+    border-style: double;
+    background-image: url(Images/loginpage.png);
+    border-style:solid;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
