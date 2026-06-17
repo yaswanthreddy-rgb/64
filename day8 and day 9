@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <h1> InterviewAce</h1>
+    </head> 
+    <body id="border">
+    <div>
+        <link rel="Stylesheet" type="text/css" href="style.css">
+        <img src="logo.png" width="250" height="60">
+        <h3>Welcome Back Yaswanth © </h3>
+        <p>Hello, Yaswanth! How can I assist you today?</p>
+        <div class="sidebar" >
+            <a href="#">
+                <div class="icon-box">
+                🏠 Dashboard </a>
+                </div>
+            <a href="DSA.html" >
+                <div class="icon-box white">
+                    💻 DSA Solving </a>        
+                </div>
+            <a href="java.html">
+                <div class="icon-box orange">
+                    ☕ Java</a>
+                </div>
+            <a href="python.html">
+                <div class="icon-box red">
+                    🐍 Python</a>
+                </div>
+            <a href="resume.html">
+                <div class="icon-box pink">
+                📄 Resume Analyzer</a>
+                    </div>
+
+            <a href="mock interview.html">
+                <div class="icon-box blue">
+                    🎤 Mock InterviewsAce
+                </a>
+                </div>
+            <a href="mock interview.html">
+                <div class="icon-box blueviolet">
+                    ⚙️ Settings
+                </a>
+            </div>
+        
+
+        </body>
+    
+</html>
