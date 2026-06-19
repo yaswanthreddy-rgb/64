@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>InterviewAce AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+
+            <h1>InterviewAce</h1>
+
+            <img src="logo.png" width="220" height="60">
+
+            <a href="#">
+                <div class="icon-box">
+                    🏠 Dashboard
+                </div>
+            </a>
+
+            <a href="DSA.html">
+                <div class="icon-box white">
+                    💻 DSA Solving
+                </div>
+            </a>
+
+            <a href="java.html">
+                <div class="icon-box orange">
+                    ☕ Java
+                </div>
+            </a>
+
+            <a href="python.html">
+                <div class="icon-box red">
+                    🐍 Python
+                </div>
+            </a>
+
+            <a href="resume.html">
+                <div class="icon-box pink">
+                    📄 Resume Analyzer
+                </div>
+            </a>
+
+            <a href="mock interview.html">
+                <div class="icon-box blue">
+                    🎤 Mock Interviews
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="icon-box blueviolet">
+                    ⚙️ Settings
+                </div>
+            </a>
+
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+
+            <h1>Welcome Back Yaswanth 👋</h1>
+
+            <p>Let's get started on your journey.</p>
+
+            <div class="content">
+
+                <div class="card">DSA Solving</div>
+
+                <div class="card">Mock Interview</div>
+
+                <div class="card">Java Questions</div>
+
+                <div class="card">Python Questions</div>
+
+                <div class="card">Resume Analyzer</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+body{
+    margin:2px ;
+    background:#2dd0f0;
+    color:rgb(255, 255, 255);
+    font-family:Arial,sans-serif;
+}
+
+/* Layout */
+.container{
+    display:flex;
+}
+
+/* Sidebar */
+.sidebar{
+    width:280px;
+    min-height:100vh;
+    padding:20px;
+    background:#071330;
+}
+
+.sidebar a{
+    text-decoration:none;
+    color:white;
+}
+
+/* Icon Buttons */
+.icon-box{
+    width:200px;
+    height:50px;
+    background:skyblue;
+    border: radius 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 15px;
+    box-shadow:0 4px 15px rgba(109,93,252,0.4);
+}
+
+.white{
+    background:#31d55d;
+}
+
+.orange{
+    background:rgb(7, 169, 233);
+}
+
+.red{
+    background:red;
+}
+
+.pink{
+    background:rgb(161,95,106);
+}
+
+.blue{
+    background:blue;
+}
+
+.blueviolet{
+    background:blueviolet;
+}
+
+/* Main Content */
+.main-content{
+    flex: 1;
+    padding:20px;
+    border: 3px solid white;
+}
+
+/* Cards Row */
+.content{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+/* Cards */
+.card{
+    width:180px;
+    height:100px;
+    background:#162447;
+    border-radius:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    box-shadow:0 4px 15px rgba(0,0,0,0.4);
+}
+.demo{
+    
+}
