@@ -1,0 +1,129 @@
+body{
+    margin:2px ;
+    background:#2dd0f0;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+/* Layout */
+.container{
+    display:flex;
+}
+
+/* Sidebar */
+.sidebar{
+    width:280px;
+    min-height:100vh;
+    padding:20px;
+    background:#071330;
+}
+
+.sidebar a{
+    text-decoration:none;
+    color:white;
+}
+
+/* Icon Buttons */
+.icon-box{
+    width:200px;
+    height:50px;
+    background:skyblue;
+    border: radius 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 15px;
+    box-shadow:0 4px 15px rgba(109,93,252,0.4);
+}
+
+.white{
+    background:#31d55d;
+}
+
+.orange{
+    background:rgb(7, 169, 233);
+}
+
+.red{
+    background:red;
+}
+
+.pink{
+    background:rgb(161,95,106);
+}
+
+.blue{
+    background:blue;
+}
+
+.blueviolet{
+    background:blueviolet;
+}
+
+/* Main Content */
+.main-content{
+    flex: 1;
+    padding:20px;
+    border: 3px solid white;
+}
+
+/* Cards Row */
+.content{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+/* Cards */
+.card{
+    width: 500px;
+    height:100px;
+    background:#162447;
+    border-radius:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    box-shadow:0 4px 15px rgba(0,0,0,0.4);
+}
+/*Progress chart */
+.progresschart{
+    height: 1000px;
+    width: auto;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    align-items: center;
+    place-items: center;
+    background-color:green;
+}
+.staticalcards{
+    height: 100px;
+    width:auto;
+    gap: 5px;
+    align-items: center;
+}
+.chart{
+    width:180px;
+    height:100px;
+    border-radius:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    box-shadow:0 4px 15px rgba(0,0,0,0.4);
+    gap: 100px;
+
+}
+.top-bar{
+    padding: 20px;
+    background-color:rgb(239, 17, 132);
+    cursor:pointer;
+}
+
+.footer{
+    text-align:center;
+    padding:20px;
+    color:blue;
+}
