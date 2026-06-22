@@ -1,0 +1,192 @@
+body{
+    margin:0;
+    background:#071330;
+    color:#08ccef;
+    font-family:Arial, sans-serif;
+}
+
+/* Layout */
+.container{
+    display:flex;
+}
+
+/* Sidebar */
+.sidebar{
+    width:280px;
+    min-height:100vh;
+    padding:20px;
+    background:#071330;
+}
+
+.sidebar a{
+    text-decoration:none;
+    color:white;
+}
+
+/* Sidebar Buttons */
+.icon-box{
+    width:200px;
+    height:50px;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:15px;
+    color:white;
+    box-shadow:0 4px 15px rgba(109,93,252,0.4);
+    transition:0.3s;
+    margin-bottom: 20px;
+}
+.white{
+    background:#31d55d;
+}
+
+.orange{
+    background:#07a9e9;
+}
+
+.red{
+    background:red;
+}
+
+.pink{
+    background:rgb(161,95,106);
+}
+
+.blue{
+    background:blue;
+}
+
+.blueviolet{
+    background:blueviolet;
+}
+
+/* Main Content */
+.main-content{
+    flex:1;
+    padding:20px;
+}
+
+/* Top Bar */
+.top-bar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#162447;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.search-bar{
+    width:300px;
+    height:40px;
+    border:none;
+    border-radius:8px;
+    padding-left:10px;
+}
+
+.search{
+    height:40px;
+    width:100px;
+    border:none;
+    border-radius:8px;
+    background:#8B5CF6;
+    color:white;
+    cursor:pointer;
+}
+
+.user-section{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    color:white;
+    font-weight:bold;
+}
+
+/* Statistics Cards */
+.content{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:170px;
+    height:180px;
+    background:#162447;
+    border-radius:15px;
+    padding:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.4);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    margin-bottom:10px;
+}
+
+.card h4{
+    color:white;
+    font-size:14px;
+    margin:10px 0;
+}
+
+.card h2{
+    color:white;
+    font-size:32px;
+    margin:10px 0;
+}
+
+.card p{
+    color:#9ca3af;
+    font-size:12px;
+}
+
+
+/* Progress Section */
+.progresschart{
+    margin-top:30px;
+    background:#071330;
+    border:2px solid #162447;
+    border-radius:15px;
+    padding:20px;
+}
+
+.progresschart h1{
+    text-align:center;
+    color:white;
+}
+
+/* Progress Cards Container */
+.staticalcards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+/* Individual Progress Card */
+.chart{
+    width:180px;
+    min-height:220px;
+    background:#162447;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 4px 15px rgba(0,0,0,0.4);
+    transition:0.3s;
+}
+
+.chart:hover{
+    transform:translateY(-5px);
+}
+
+.chart h3{
+    color:rgb(241, 243, 245);
+    margin-bottom:15px;
+}
